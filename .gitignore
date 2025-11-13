@@ -1,0 +1,51 @@
+# Node modules and dependencies
+node_modules/
+.npm/
+.pnpm-store/
+dist/
+build/
+.cache/
+.vite/
+coverage/
+
+# Environment & credentials
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.crt
+
+# IDE / system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+logs/
+temp/
+*.tmp
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+.env/
+env/
+.mypy_cache/
+.pytest_cache/
+
+# OS & package manager files
+package-lock.json
+yarn.lock
+pip-log.txt
+
+# Local database or media (if any)
+*.sqlite3
+uploads/
+media/
